@@ -3,7 +3,10 @@ const express    = require("express"),
       port       = process.env.PORT || 3000,
       app        = express();
 
-const todoRoutes = require("./routes/todos");
+const todoRoutes = require("./routes/todos")
+
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended: true}));
 
 app.use("/api/todos", todoRoutes);
 
