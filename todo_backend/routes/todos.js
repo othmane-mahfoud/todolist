@@ -20,7 +20,7 @@ router.post("/", function(req, res){
   .catch(function(err){
     res.send(err);
   });
-})
+});
 
 router.get("/:todoId", function(req, res){
   db.Todo.findById(req.params.todoId)
@@ -30,6 +30,16 @@ router.get("/:todoId", function(req, res){
   .catch(function(err){
     res.send(err);
   })
-})
+});
+
+router.put("/:todoId", function(req, res){
+  db.Todo.findOneAndUpdate({_id: req.params.todoId}, req.body, {new: true})
+  .then(function(updatedTodo){
+    res.json(updatedTodo);
+  })
+  .catch(function(err){
+    res.send(err);
+  })
+});
 
 module.exports = router;
