@@ -1,0 +1,40 @@
+{
+  "name": "todo_backend",
+  "version": "1.0.0",
+  "description": "NodeJS backend for a todo list full stack app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/othmane-mahfoud/todolist.git"
+  },
+  "keywords": [
+    "todo",
+    "list",
+    "nodejs",
+    "javascript",
+    "backend"
+  ],
+  "author": "Othmane Mahfoud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/othmane-mahfoud/todolist/issues"
+  },
+  "homepage": "https://github.com/othmane-mahfoud/todolist#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.12"
+  },
+  "apidoc": {
+    "name": "todolist",
+    "version": "1.0.0",
+    "description": "api documentation for todolist",
+    "apidoc": {
+      "title": "Todolist API Documentation",
+      "url" : "https://github.com/othmane-mahfoud/todolist"
+    }
+  }
+}
