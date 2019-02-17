@@ -21,8 +21,12 @@ npm install
 ```
 node index.js
 ```
-* To see the documentation simply go to todolist/todo_backend/doc/index.html and open the file using any browser.
+* To see the documentation simply go to 
+```
+todolist/todo_backend/doc/index.html
+```
+and open the file using any browser.
 
-## Toughts?
+## Thoughts?
 If you have any questions or feedback about my app, feel free to contact me: mahfoud.othmane97@gmail.com :incoming_envelope:
 
