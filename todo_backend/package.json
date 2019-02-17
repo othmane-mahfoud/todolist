@@ -27,5 +27,14 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "mongoose": "^5.4.12"
+  },
+  "apidoc": {
+    "name": "todolist",
+    "version": "1.0.0",
+    "description": "api documentation for todolist",
+    "apidoc": {
+      "title": "Todolist API Documentation",
+      "url" : "https://github.com/othmane-mahfoud/todolist"
+    }
   }
 }
