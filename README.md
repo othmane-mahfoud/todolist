@@ -17,11 +17,15 @@ This is a simple full stack todo list app written in javascript to help the deve
 ```
 npm install
 ```
+* Don't forget to install mongo and start it using the terminal command
+```
+mongod
+```
 * Then you can start the server and test the api using:
 ```
 node index.js
 ```
-* To see the documentation simply go to 
+* To see the documentation simply go to
 ```
 todolist/todo_backend/doc/index.html
 ```
@@ -29,4 +33,3 @@ and open the file using any browser.
 
 ## Thoughts?
 If you have any questions or feedback about my app, feel free to contact me: mahfoud.othmane97@gmail.com :incoming_envelope:
-
